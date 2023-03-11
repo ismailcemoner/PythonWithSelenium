@@ -1,0 +1,19 @@
+# 1-Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+#Pythonda veri tipi çeşitleri aşağıdaki şekildedir:
+ #String(str) = Metin verilerini barındırır.
+ #int, float, complex = Sayısal veri tiplerini barındırır. 
+#list, tuple, range  = Listeleme, gruplama ve sıralama tiplerinin barındırır. 
+
+# 2-Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+# Sitede metinsel ifadeler (str) veri tipinde tutuluyordur.
+#   Kurslardaki ilerlemeler ise (int) veri tipinde tutuluyordur.
+#  Kullanıcıya ana sayfada kaç tane kursun gösterileceğini sınırlamak için (range) kullanıyordur.
+
+# 3-Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+email = "deneme@gmail.com"
+password ="1234567"
+
+if(email == "deneme@gmail.com" and password =="1234567" ):
+    print("Giriş Başarılı")
+else:
+    print("Giriş Başarısız")
